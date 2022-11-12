@@ -1,4 +1,6 @@
 #!/bin/bash
 echo "Hello World,Hi"
-mkdir /home/koki -p
-chmod +x /home/koki
+# rsync script
+chown jenkins:jenkins /tmp
+mkdir -p /tmp/home
+rsync -avh --exclude="*.bak" /home /tmp/home
