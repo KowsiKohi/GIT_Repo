@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Hello World,Hi"
-sudo mkdir /home/koki -p
-sudo chmod +x /home/koki
+mkdir /home/koki -p
+chmod +x /home/koki
