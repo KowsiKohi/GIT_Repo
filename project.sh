@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Hello World,H"
+echo "Hello World,"
 # rsync script
 chown jenkins:jenkins /tmp
 mkdir -p /tmp/home
